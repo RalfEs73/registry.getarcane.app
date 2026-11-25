@@ -1,0 +1,9 @@
+{
+  "id": "caddy",
+  "name": "Caddy",
+  "description": "Webserver und Reverse Proxy mit automatischen HTTPS-Zertifikaten.",
+  "version": "1.0.0",
+  "author": "RalfEs73",
+  "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/caddy.svg",
+  "tags": ["proxy", "web"]
+}

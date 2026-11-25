@@ -4,7 +4,7 @@
   "description": "Docker Compose Templates für Arcane",
   "author": "RalfEs73",
   "url": "https://github.com/RalfEs73/registry.getarcane.app",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "templates": [
     {
       "id": "tautulli",
@@ -49,6 +49,21 @@
       "tags": [
         "media",
         "streaming"
+      ]
+    },
+    {
+      "id": "caddy",
+      "name": "Caddy",
+      "description": "Webserver und Reverse Proxy mit automatischen HTTPS-Zertifikaten.",
+      "version": "1.0.0",
+      "author": "RalfEs73",
+      "compose_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/caddy/compose.yaml",
+      "env_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/caddy/.env.example",
+      "documentation_url": "https://github.com/RalfEs73/registry.getarcane.app/tree/main/templates/caddy",
+      "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/caddy.svg",
+      "tags": [
+        "proxy",
+        "web"
       ]
     }
   ]

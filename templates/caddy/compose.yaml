@@ -1,0 +1,19 @@
+services:
+  caddy:
+    image: caddy:${CADDY_VERSION:-latest}
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - "${CADDY_HTTP_PORT:-80}:80"
+      - "${CADDY_HTTPS_PORT:-443}:443"
+    volumes:
+      - ${CADDY_DIR:-./caddy}/data:/data
+      - ${CADDY_DIR:-./caddy}/config:/config
+      - ${CADDY_DIR:-./caddy}/Caddyfile:/etc/caddy/Caddyfile:ro
+    networks:
+      - extern
+
+networks:
+  extern:
+    name: ${DOCKER_NETWORK:-extern}
+    external: true
