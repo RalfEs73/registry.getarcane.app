@@ -16,7 +16,7 @@ docker network create extern
 |--------------------|--------------------------|------------------------------------|
 | `TAUTULLI_VERSION` | `latest`                 | Image-Tag                          |
 | `TAUTULLI_PORT`    | `8181`                   | Port auf dem Host                  |
-| `TAUTULLI_CONFIG`  | `/home/docker/tautulli`  | Konfigurationsverzeichnis          |
+| `TAUTULLI_CONFIG`  | `./config`               | Konfigurationsverzeichnis          |
 | `PUID` / `PGID`    | `1000`                   | Benutzer-/Gruppen-ID für Dateirechte |
 | `TZ`               | `Europe/Berlin`          | Zeitzone                           |
 | `DOCKER_NETWORK`   | `extern`                 | Name des externen Netzwerks        |

@@ -4,13 +4,13 @@
   "description": "Docker Compose Templates für Arcane",
   "author": "RalfEs73",
   "url": "https://github.com/RalfEs73/registry.getarcane.app",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "templates": [
     {
       "id": "tautulli",
       "name": "Tautulli",
       "description": "Überwachung und Statistiken für Plex Media Server.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "RalfEs73",
       "compose_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/tautulli/compose.yaml",
       "env_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/tautulli/.env.example",
@@ -19,6 +19,21 @@
       "tags": [
         "media",
         "monitoring"
+      ]
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "description": "Workflow-Automatisierung mit visuellem Editor und vielen Integrationen.",
+      "version": "1.0.0",
+      "author": "RalfEs73",
+      "compose_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/n8n/compose.yaml",
+      "env_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/n8n/.env.example",
+      "documentation_url": "https://github.com/RalfEs73/registry.getarcane.app/tree/main/templates/n8n",
+      "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/n8n.svg",
+      "tags": [
+        "automation",
+        "workflow"
       ]
     }
   ]

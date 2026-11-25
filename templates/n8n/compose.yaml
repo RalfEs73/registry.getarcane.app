@@ -1,0 +1,25 @@
+services:
+  n8n:
+    image: n8nio/n8n:${N8N_VERSION:-latest}
+    container_name: n8n
+    restart: always
+    ports:
+      - "${N8N_PORT:-8443}:${N8N_PORT:-8443}"
+    environment:
+      - N8N_HOST=${N8N_HOST:-n8n.example.com}
+      - N8N_PORT=${N8N_PORT:-8443}
+      - N8N_PROTOCOL=${N8N_PROTOCOL:-https}
+      - N8N_SECURE_COOKIE=${N8N_SECURE_COOKIE:-true}
+      - WEBHOOK_URL=${WEBHOOK_URL:-https://n8n.example.com}
+      - NODE_FUNCTION_ALLOW_BUILTIN=${NODE_FUNCTION_ALLOW_BUILTIN:-crypto}
+      - GENERIC_TIMEZONE=${TZ:-Europe/Berlin}
+      - TZ=${TZ:-Europe/Berlin}
+    volumes:
+      - ${N8N_DATA:-./data}:/home/node/.n8n
+    networks:
+      - extern
+
+networks:
+  extern:
+    name: ${DOCKER_NETWORK:-extern}
+    external: true

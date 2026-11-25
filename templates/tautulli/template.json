@@ -2,7 +2,7 @@
   "id": "tautulli",
   "name": "Tautulli",
   "description": "Überwachung und Statistiken für Plex Media Server.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "RalfEs73",
   "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/tautulli.svg",
   "tags": ["media", "monitoring"]
