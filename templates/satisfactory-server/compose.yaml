@@ -1,0 +1,23 @@
+services:
+  satisfactory-server:
+    container_name: satisfactory-server
+    hostname: satisfactory-server
+    image: wolveix/satisfactory-server:${SATISFACTORY_VERSION:-latest}
+    ports:
+      - "7777:7777/tcp"
+      - "7777:7777/udp"
+      - "8888:8888/tcp"
+    volumes:
+      - ${SATISFACTORY_DATA:-./satisfactory}:/config
+    environment:
+      - MAXPLAYERS=${MAXPLAYERS:-4}
+      - PGID=${PGID:-1000}
+      - PUID=${PUID:-1000}
+      - STEAMBETA=${STEAMBETA:-false}
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: ${MEMORY_LIMIT:-8G}
+        reservations:
+          memory: ${MEMORY_RESERVATION:-4G}

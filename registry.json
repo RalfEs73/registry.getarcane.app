@@ -4,7 +4,7 @@
   "description": "Docker Compose Templates für Arcane",
   "author": "RalfEs73",
   "url": "https://github.com/RalfEs73/registry.getarcane.app",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "templates": [
     {
       "id": "tautulli",
@@ -94,6 +94,20 @@
       "tags": [
         "game",
         "minecraft"
+      ]
+    },
+    {
+      "id": "satisfactory-server",
+      "name": "Satisfactory Server",
+      "description": "Dedizierter Server für das Fabrikbau-Spiel Satisfactory.",
+      "version": "1.0.0",
+      "author": "RalfEs73",
+      "compose_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/satisfactory-server/compose.yaml",
+      "env_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/satisfactory-server/.env.example",
+      "documentation_url": "https://github.com/RalfEs73/registry.getarcane.app/tree/main/templates/satisfactory-server",
+      "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/png/satisfactory.png",
+      "tags": [
+        "game"
       ]
     }
   ]

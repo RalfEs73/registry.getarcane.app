@@ -1,0 +1,9 @@
+{
+  "id": "satisfactory-server",
+  "name": "Satisfactory Server",
+  "description": "Dedizierter Server für das Fabrikbau-Spiel Satisfactory.",
+  "version": "1.0.0",
+  "author": "RalfEs73",
+  "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/png/satisfactory.png",
+  "tags": ["game"]
+}

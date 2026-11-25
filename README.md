@@ -19,6 +19,7 @@ https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/registry.
 | <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/minecraft.svg" width="24" alt=""> | [Minecraft Server - Survival](templates/minecraft-survival) | Minecraft-Bedrock-Server im Überlebensmodus. | `game` `minecraft` | 1.0.0 |
 | <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/n8n.svg" width="24" alt=""> | [n8n](templates/n8n) | Workflow-Automatisierung mit visuellem Editor und vielen Integrationen. | `automation` `workflow` | 1.0.0 |
 | <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/plex.svg" width="24" alt=""> | [Plex](templates/plex) | Mediaserver zum Streamen von Filmen, Serien und Musik. | `media` `streaming` | 1.0.0 |
+| <img src="https://raw.githubusercontent.com/selfhst/icons/main/png/satisfactory.png" width="24" alt=""> | [Satisfactory Server](templates/satisfactory-server) | Dedizierter Server für das Fabrikbau-Spiel Satisfactory. | `game` | 1.0.0 |
 | <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/tautulli.svg" width="24" alt=""> | [Tautulli](templates/tautulli) | Überwachung und Statistiken für Plex Media Server. | `media` `monitoring` | 1.1.0 |
 
 ## Aufbau
