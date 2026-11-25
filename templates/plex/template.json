@@ -1,0 +1,9 @@
+{
+  "id": "plex",
+  "name": "Plex",
+  "description": "Mediaserver zum Streamen von Filmen, Serien und Musik.",
+  "version": "1.0.0",
+  "author": "RalfEs73",
+  "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/plex.svg",
+  "tags": ["media", "streaming"]
+}
