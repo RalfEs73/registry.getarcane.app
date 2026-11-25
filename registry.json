@@ -4,7 +4,7 @@
   "description": "Docker Compose Templates für Arcane",
   "author": "RalfEs73",
   "url": "https://github.com/RalfEs73/registry.getarcane.app",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "templates": [
     {
       "id": "tautulli",
@@ -64,6 +64,36 @@
       "tags": [
         "proxy",
         "web"
+      ]
+    },
+    {
+      "id": "minecraft-creativ",
+      "name": "Minecraft Server - Creativ",
+      "description": "Minecraft-Bedrock-Server im Kreativmodus.",
+      "version": "1.0.0",
+      "author": "RalfEs73",
+      "compose_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/minecraft-creativ/compose.yaml",
+      "env_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/minecraft-creativ/.env.example",
+      "documentation_url": "https://github.com/RalfEs73/registry.getarcane.app/tree/main/templates/minecraft-creativ",
+      "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/minecraft.svg",
+      "tags": [
+        "game",
+        "minecraft"
+      ]
+    },
+    {
+      "id": "minecraft-survival",
+      "name": "Minecraft Server - Survival",
+      "description": "Minecraft-Bedrock-Server im Überlebensmodus.",
+      "version": "1.0.0",
+      "author": "RalfEs73",
+      "compose_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/minecraft-survival/compose.yaml",
+      "env_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/minecraft-survival/.env.example",
+      "documentation_url": "https://github.com/RalfEs73/registry.getarcane.app/tree/main/templates/minecraft-survival",
+      "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/minecraft.svg",
+      "tags": [
+        "game",
+        "minecraft"
       ]
     }
   ]

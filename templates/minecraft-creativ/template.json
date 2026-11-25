@@ -1,0 +1,12 @@
+{
+  "id": "minecraft-creativ",
+  "name": "Minecraft Server - Creativ",
+  "description": "Minecraft-Bedrock-Server im Kreativmodus.",
+  "version": "1.0.0",
+  "author": "RalfEs73",
+  "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/minecraft.svg",
+  "tags": [
+    "game",
+    "minecraft"
+  ]
+}

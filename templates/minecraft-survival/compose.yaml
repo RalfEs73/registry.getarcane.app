@@ -1,0 +1,26 @@
+services:
+  minecraft-bedrock-server:
+    image: itzg/minecraft-bedrock-server:${MC_IMAGE_VERSION:-latest}
+    container_name: minecraftbedrocksurvival
+    tty: true
+    stdin_open: true
+    environment:
+      - EULA=TRUE
+      - VERSION=${MC_VERSION:-latest}
+      - SERVER_NAME=${SERVER_NAME:-BlockSurvival}
+      - SERVER_PORT=${SERVER_PORT:-19142}
+      - GAMEMODE=survival
+      - DIFFICULTY=${DIFFICULTY:-easy}
+      - ONLINE_MODE=${ONLINE_MODE:-true}
+      - OPS=${OPS:-}
+      - ALLOW_LIST=${ALLOW_LIST:-true}
+      - ALLOW_LIST_USERS=${ALLOW_LIST_USERS:-}
+      - ALLOW_CHEATS=${ALLOW_CHEATS:-true}
+      - TZ=${TZ:-Europe/Berlin}
+    volumes:
+      - ${MC_DATA:-./minecraft}:/data
+    ports:
+      - "${SERVER_PORT:-19142}:${SERVER_PORT:-19142}/udp"
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped

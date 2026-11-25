@@ -1,0 +1,12 @@
+{
+  "id": "minecraft-survival",
+  "name": "Minecraft Server - Survival",
+  "description": "Minecraft-Bedrock-Server im Überlebensmodus.",
+  "version": "1.0.0",
+  "author": "RalfEs73",
+  "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/minecraft.svg",
+  "tags": [
+    "game",
+    "minecraft"
+  ]
+}
