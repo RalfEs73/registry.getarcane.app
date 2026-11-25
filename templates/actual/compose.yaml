@@ -1,9 +1,0 @@
-services:
-  actual:
-    image: actualbudget/actual-server:${ACTUAL_VERSION:-latest}
-    container_name: actual
-    restart: unless-stopped
-    ports:
-      - "${ACTUAL_PORT:-5006}:5006"
-    volumes:
-      - ${ACTUAL_DATA:-./data}:/data
