@@ -10,6 +10,14 @@ Unter **Templates → Registries** diese URL eintragen:
 https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/registry.json
 ```
 
+## Vorlagen
+
+|  | Vorlage | Beschreibung | Tags | Version |
+|---|---|---|---|---|
+| <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/n8n.svg" width="24" alt=""> | [n8n](templates/n8n) | Workflow-Automatisierung mit visuellem Editor und vielen Integrationen. | `automation` `workflow` | 1.0.0 |
+| <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/plex.svg" width="24" alt=""> | [Plex](templates/plex) | Mediaserver zum Streamen von Filmen, Serien und Musik. | `media` `streaming` | 1.0.0 |
+| <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/tautulli.svg" width="24" alt=""> | [Tautulli](templates/tautulli) | Überwachung und Statistiken für Plex Media Server. | `media` `monitoring` | 1.1.0 |
+
 ## Aufbau
 
 ```
@@ -28,3 +36,4 @@ scripts/           später: Skript, das registry.json aus den template.json erze
 1. Ordner `templates/<id>/` anlegen (Ordnername = `id`, nur Kleinbuchstaben und Bindestriche).
 2. `compose.yaml`, `.env.example`, `template.json` und `README.md` anlegen.
 3. Eintrag in `registry.json` ergänzen und `version` der Registry erhöhen.
+4. Zeile in der Tabelle [Vorlagen](#vorlagen) oben ergänzen.
