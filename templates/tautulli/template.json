@@ -1,0 +1,9 @@
+{
+  "id": "tautulli",
+  "name": "Tautulli",
+  "description": "Monitoring and statistics for Plex Media Server.",
+  "version": "1.0.0",
+  "author": "RalfEs73",
+  "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/tautulli.svg",
+  "tags": ["media", "monitoring"]
+}

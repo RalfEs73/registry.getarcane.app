@@ -1,0 +1,39 @@
+{
+  "$schema": "https://registry.getarcane.app/schema.json",
+  "name": "RalfEs73 Templates",
+  "description": "Docker Compose Templates für Arcane",
+  "author": "RalfEs73",
+  "url": "https://github.com/RalfEs73/registry.getarcane.app",
+  "version": "1.1.0",
+  "templates": [
+    {
+      "id": "actual",
+      "name": "Actual",
+      "description": "Privacy-focused personal finance and budgeting server.",
+      "version": "1.0.0",
+      "author": "RalfEs73",
+      "compose_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/actual/compose.yaml",
+      "env_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/actual/.env.example",
+      "documentation_url": "https://github.com/RalfEs73/registry.getarcane.app/tree/main/templates/actual",
+      "icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/svg/actual-budget.svg",
+      "tags": [
+        "finance"
+      ]
+    },
+    {
+      "id": "tautulli",
+      "name": "Tautulli",
+      "description": "Monitoring and statistics for Plex Media Server.",
+      "version": "1.0.0",
+      "author": "RalfEs73",
+      "compose_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/tautulli/compose.yaml",
+      "env_url": "https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/templates/tautulli/.env.example",
+      "documentation_url": "https://github.com/RalfEs73/registry.getarcane.app/tree/main/templates/tautulli",
+      "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/tautulli.svg",
+      "tags": [
+        "media",
+        "monitoring"
+      ]
+    }
+  ]
+}
