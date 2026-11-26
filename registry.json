@@ -1,10 +1,10 @@
 {
   "$schema": "https://registry.getarcane.app/schema.json",
-  "name": "RalfEs73 Templates",
+  "name": "RalfEs Public Templates",
   "description": "Docker Compose Templates für Arcane",
   "author": "RalfEs73",
   "url": "https://github.com/RalfEs73/registry.getarcane.app",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "templates": [
     {
       "id": "tautulli",
