@@ -1,0 +1,9 @@
+{
+  "id": "metube",
+  "name": "MeTube",
+  "description": "Weboberfläche zum Herunterladen von Videos von YouTube und vielen anderen Seiten.",
+  "version": "1.0.0",
+  "author": "RalfEs73",
+  "icon_url": "https://raw.githubusercontent.com/selfhst/icons/main/svg/metube.svg",
+  "tags": ["media", "download"]
+}

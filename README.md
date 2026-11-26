@@ -15,6 +15,7 @@ https://raw.githubusercontent.com/RalfEs73/registry.getarcane.app/main/registry.
 |  | Vorlage | Beschreibung | Tags | Version |
 |---|---|---|---|---|
 | <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/caddy.svg" width="24" alt=""> | [Caddy](templates/caddy) | Webserver und Reverse Proxy mit automatischen HTTPS-Zertifikaten. | `proxy` `web` | 1.0.0 |
+| <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/metube.svg" width="24" alt=""> | [MeTube](templates/metube) | Weboberfläche zum Herunterladen von Videos von YouTube und vielen anderen Seiten. | `media` `download` | 1.0.0 |
 | <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/minecraft.svg" width="24" alt=""> | [Minecraft Server - Creativ](templates/minecraft-creativ) | Minecraft-Bedrock-Server im Kreativmodus. | `game` `minecraft` | 1.0.0 |
 | <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/minecraft.svg" width="24" alt=""> | [Minecraft Server - Survival](templates/minecraft-survival) | Minecraft-Bedrock-Server im Überlebensmodus. | `game` `minecraft` | 1.0.0 |
 | <img src="https://raw.githubusercontent.com/selfhst/icons/main/svg/n8n.svg" width="24" alt=""> | [n8n](templates/n8n) | Workflow-Automatisierung mit visuellem Editor und vielen Integrationen. | `automation` `workflow` | 1.0.0 |
